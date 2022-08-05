@@ -8,7 +8,7 @@ import {
   ScrollRestoration,
 } from "@remix-run/react";
 
-import styles from "./tailwind.css";
+import tailwindStyles from "./tailwind.css";
 
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
@@ -17,11 +17,7 @@ export const meta: MetaFunction = () => ({
 });
 
 export const links: LinksFunction = () => [
-  {
-    rel: "stylesheet",
-    href: "https://unpkg.com/modern-css-reset@1.4.0/dist/reset.min.css",
-  },
-  { rel: "stylesheet", href: styles },
+  { rel: "stylesheet", href: tailwindStyles },
 ];
 
 export default function App() {
