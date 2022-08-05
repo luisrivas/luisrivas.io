@@ -1,5 +1,6 @@
-# Welcome to Remix!
+# Luis Rivas's Website
 
+This web is using Remix. For more information or doubts about the framework, see:
 - [Remix Docs](https://remix.run/docs)
 
 ## Development
