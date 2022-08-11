@@ -18,7 +18,7 @@ export default function Index() {
           <img className="w-52 mb-4" src="./images/me.webp" />
           <h3 className="text-5xl leading-tight font-black text-black">Hi, I'm <span className="font-monospace font-bold text-blue decoration-tag">Luis</span></h3>
           <p className="text-2xl leading-normal font-base text-gray">
-            I am a Software Engineer based in Bógota, Colombia, with experience in Web technologies.
+            I am a Software Engineer based in Bogotá, Colombia, with experience in Web technologies.
             I am passionate about improving the performance of products through engineering, and I am constantly looking to build new things.
           </p>
         </div>
