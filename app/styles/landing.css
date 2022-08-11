@@ -1,0 +1,11 @@
+.decoration-tag::before {
+  content: "<";
+}
+
+.decoration-tag::after {
+  content: "/>";
+}
+
+footer {
+  border-top: 1px solid rgba(0, 0, 0, 0.16);
+}

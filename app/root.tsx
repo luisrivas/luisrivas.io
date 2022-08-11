@@ -18,6 +18,7 @@ export const meta: MetaFunction = () => ({
 
 export const links: LinksFunction = () => [
   { rel: "stylesheet", href: tailwindStyles },
+  { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Gantari:wght@400;700;900&family=Inconsolata:wght@700&display=swap" }
 ];
 
 export default function App() {
@@ -27,7 +28,7 @@ export default function App() {
         <Meta />
         <Links />
       </head>
-      <body>
+      <body className="bg-white">
         <Outlet />
         <ScrollRestoration />
         <Scripts />
