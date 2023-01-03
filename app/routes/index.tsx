@@ -28,7 +28,7 @@ export default function Index() {
           <a href="https://twitter.com/luis_to_string">
             <FaTwitter title="My twitter" className="fill-black w-6 h-6" />
           </a>
-          <a href="https://www.linkedin.com/">
+          <a href="https://www.linkedin.com/in/luis-rivas/">
             <FaLinkedin title="My linkedin" className="fill-black w-6 h-6" />
           </a>
           <a href="https://github.com/luisrivas">
@@ -42,7 +42,7 @@ export default function Index() {
           <a href="https://twitter.com/luis_to_string">
             <FaTwitter title="My twitter" className="fill-black w-6 h-6" />
           </a>
-          <a href="https://www.linkedin.com/">
+          <a href="https://www.linkedin.com/in/luis-rivas/">
             <FaLinkedin title="My linkedin" className="fill-black w-6 h-6" />
           </a>
           <a href="https://github.com/luisrivas">
