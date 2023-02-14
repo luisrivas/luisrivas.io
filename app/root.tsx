@@ -13,6 +13,7 @@ import tailwindStyles from "./tailwind.css";
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
   title: "Luis Rivas",
+  description: 'I am a Software Engineer passionate about Web Technologies and Performance.',
   viewport: "width=device-width,initial-scale=1",
   "og:title": "Luis Rivas",
   "og:description": "I talk about software development.",
