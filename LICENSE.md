@@ -1,0 +1,2 @@
+This material is available for private, non-commercial use under the
+[GPL version 3](http://www.gnu.org/licenses/gpl-3.0-standalone.html). If you want to use this material to create your website, please get in touch with me, and I will be happy to help you.
