@@ -37,13 +37,13 @@ export default function RootLayout({
         {children}
         <footer className="container mx-auto max-w-5xl flex flex-row-reverse items-center px-6 desktop:px-0 py-4 border-t border-black/15">
           <div className="flex gap-8">
-            <a href={socialMedia.twitter}>
+            <a href={socialMedia.twitter} target="_blank" rel="noopener noreferrer">
               <FaXTwitter title="My twitter" className="fill-black w-6 h-6" />
             </a>
-            <a href={socialMedia.linkedin}>
+            <a href={socialMedia.linkedin} target="_blank" rel="noopener noreferrer">
               <FaLinkedin title="My linkedin" className="fill-black w-6 h-6" />
             </a>
-            <a href={socialMedia.github}>
+            <a href={socialMedia.github} target="_blank" rel="noopener noreferrer">
               <FaGithub title="My github" className="fill-black w-6 h-6" />
             </a>
           </div>
