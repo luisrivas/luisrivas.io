@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Gantari } from "next/font/google";
 import { FaGithub, FaLinkedin, FaXTwitter } from "react-icons/fa6";
+import { Analytics } from "@vercel/analytics/react"
 import "./globals.css";
 import { socialMedia } from "../lib/constants";
 
@@ -48,6 +49,7 @@ export default function RootLayout({
             </a>
           </div>
         </footer>
+        <Analytics />
       </body>
     </html>
   );
